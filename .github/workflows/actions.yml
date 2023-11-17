@@ -31,4 +31,8 @@ jobs:
 
           echo List current directory contents
           ls -al
+          
+          echo Run Script
+          bash script.sh
+
   
