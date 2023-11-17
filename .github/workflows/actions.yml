@@ -26,9 +26,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run Multiple
         run: |
-          name: Run a one-line script
-          run: echo hello world!
+          echo Run a one-line script
+          echo hello world!
 
-          name: List current directory contents
-          run: ls_al
+          echo List current directory contents
+          ls_al
   
