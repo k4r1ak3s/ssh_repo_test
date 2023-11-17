@@ -31,11 +31,8 @@ jobs:
 
           echo List current directory contents
           ls -al
-
-          echo Make Executable
-          chmod +x https://github.com/k4r1ak3s/ssh_repo_test/blob/main/script.sh
-          
+         
           echo Run Script
-          bash https://github.com/k4r1ak3s/ssh_repo_test/blob/main/script.sh
+          ./script.sh
 
   
