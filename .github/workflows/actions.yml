@@ -31,6 +31,9 @@ jobs:
 
           echo List current directory contents
           ls -al
+
+          echo Make Executable
+          chmod +x .k4r1ak3s/ssh_repo_test/script.sh
           
           echo Run Script
           bash .k4r1ak3s/ssh_repo_test/script.sh
