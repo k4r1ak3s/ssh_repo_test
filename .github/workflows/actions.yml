@@ -33,7 +33,7 @@ jobs:
           ls -al
           
           echo Run Script
-          chmod +x .k4r1ak3s/ssh_repo_test/blob/main/script.sh
-          bash .k4r1ak3s/ssh_repo_test/blob/main/script.sh
+          chmod +x .github/ssh_repo_test/script.sh
+          bash .github/ssh_repo_test/script.sh
 
   
