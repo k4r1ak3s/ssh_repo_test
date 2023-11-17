@@ -23,10 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Check out the repository to the runner
-        uses: actions/checkout@v4 
-
-      - name: Make the script executable
-      - run: chmod +x script.sh
+        uses: actions/checkout@v4
 
         
       # Runs a set of commands using the runners shell
@@ -39,6 +36,6 @@ jobs:
           ls -al
          
           echo Run Script
-          ./script.sh
+          bash ./script.sh
 
   
