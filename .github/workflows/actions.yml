@@ -33,6 +33,6 @@ jobs:
           ls -al
           
           echo Run Script
-          bash .script.sh
+          bash ./script.sh
 
   
