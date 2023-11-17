@@ -33,7 +33,6 @@ jobs:
           ls -al
           
           echo Run Script
-          .ssh_repo_test/script.sh
-            shell: bash
+          bash .k4r1ak3s/ssh_repo_test/blob/main/script.sh
 
   
