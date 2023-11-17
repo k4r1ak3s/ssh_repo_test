@@ -33,6 +33,7 @@ jobs:
           ls -al
           
           echo Run Script
+          working-directory: ./ssh_repo_test
           bash ./script.sh
 
   
